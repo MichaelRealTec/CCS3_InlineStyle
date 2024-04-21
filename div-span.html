@@ -13,12 +13,23 @@
             #conteudo{
                 background: red;
             }
+            #rodape{
+                background: green;
+            }
+            .produto{
+                background: gray;
+                margin: 10px;
+            }
+            .azul{
+                color: blue;
+            }
 
         </style>
         <!---->
     </head>
     <body>
         <!-- Logo -->
+        <!-- Div = elemento do tipo bloco-->
         <div id="topo">
             <img src="imagens/amazonPrimeLogo.png" width="200">
             <ul>
@@ -30,18 +41,36 @@
 
         <div id="conteudo">
             
-            <div>
+            <div class="produto">
                 Produto1
             </div>
-            <div>
+            <div class="produto">
                 Produto2
             </div>
-            <div>
+            <div class="produto">
                 Produto3
             </div>
             
             
         </div>
+        <!-- rodapé -->
+        <div id="rodape">
+            Todos os <span class="azul"> direitos </span> reservados
+        </div>
+        <!-- span = elemento do tipo inline-->
+        <span>
+            Michael
+        </span>
+        <span>
+            Rafael
+        </span>
+        <span>
+            de
+        </span>
+        <span>
+            Andrade
+        </span>
+
 
     </body>
 </html>
